@@ -19,6 +19,9 @@
     {{ page.title | escape }}
   </h1>
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+{% if page.title == "About" %}
+    <p>This page was published on {{ page.published_at | date: '%B %d, %Y'}}</p>
+{% endif %}
     {{ page.content }}
   </div>
 </div>
