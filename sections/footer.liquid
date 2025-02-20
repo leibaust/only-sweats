@@ -28,8 +28,7 @@
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-
-  <address>{{ shop.address.summary }}</address>
+  <address class="shop-address">{{ shop.address.summary }}</address>
 
   {%- liquid
     assign has_social_icons = true

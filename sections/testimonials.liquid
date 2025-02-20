@@ -1,0 +1,42 @@
+{{ 'testimonials.css' | asset_url | stylesheet_tag }}
+
+<div class="testimonial-container">
+  <h2>{{ section.settings['text-box'] }}</h2>
+  <blockquote class="testimonial-quote">
+    {{ section.settings.quote }}
+  </blockquote>
+  <p class="testimonial-author">- {{ section.settings['customer-name'] }}</p>
+</div>
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "tag": "section",
+  "class": "testimonial",
+  "settings": [
+    {
+      "id": "text-box",
+      "type": "text",
+      "label": "Headline",
+      "default": "Enter Title Here"
+    },
+    {
+      "id": "quote",
+      "type": "textarea",
+      "label": "Quote",
+      "default": "Enter Quote Here"
+    },
+    {
+      "id": "customer-name",
+      "type": "text",
+      "label": "Name",
+      "default": "Enter Name Here"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials"
+    }
+  ]
+}
+{% endschema %}

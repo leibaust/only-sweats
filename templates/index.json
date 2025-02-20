@@ -77,6 +77,14 @@
         "padding_bottom": 36
       }
     },
+    "testimonials_XpDEQB": {
+      "type": "testimonials",
+      "settings": {
+        "text-box": "The best sweats ever!",
+        "quote": "Absolutely love my sweats from Only Sweats! They're super comfy, stylish, and the quality is fantastic. Great customer service too. Highly recommend!",
+        "customer-name": "Enter Name Here"
+      }
+    },
     "call_to_action_aaWYHt": {
       "type": "call-to-action",
       "settings": {
@@ -89,6 +97,7 @@
   "order": [
     "image_banner",
     "featured_collection",
+    "testimonials_XpDEQB",
     "call_to_action_aaWYHt"
   ]
 }

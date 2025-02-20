@@ -126,6 +126,23 @@
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
+      <div class="field">
+        <select
+          id="ContactForm-source"
+          class="field__input"
+          name="contact[{{ 'How did you hear about us?' }}]"
+          autocomplete="off"
+        >
+          <option value=""></option>
+          <option value="Search Engine">Search Engine</option>
+          <option value="Social Media">Social Media</option>
+          <option value="Friend/Family">Friend/Family</option>
+          <option value="Advertisement">Advertisement</option>
+          <option value="Advertisement">BCIT - FWD 39</option>
+          <option value="Other">Other</option>
+        </select>
+        <label class="field__label" for="ContactForm-source">How did you hear about us?</label>
+      </div>
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
