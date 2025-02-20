@@ -49,6 +49,13 @@
           "type": "description",
           "settings": {}
         },
+        "text_DUDhcG": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.warranty.value }}",
+            "text_style": "body"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -64,6 +71,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "text_DUDhcG",
         "share"
       ],
       "settings": {

@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "The Last Sweats You'll Ever Need",
             "heading_size": "h0"
           }
         },
@@ -36,6 +36,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/Mens_Sweatpants.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -51,12 +52,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Spring '25 Collection",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "frontpage",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,

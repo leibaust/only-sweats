@@ -17,9 +17,15 @@
       }
     },
     "sidebar": {
-      "type": "sidebar"
+      "type": "sidebar",
+      "settings": {
+        "sidebar_title": "Sidebar Title",
+        "sidebar_content": "This is the sidebar content."
+      }
     }
   },
-
-  "order": ["main", "sidebar"]
+  "order": [
+    "main",
+    "sidebar"
+  ]
 }
